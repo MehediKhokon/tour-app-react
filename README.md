@@ -10,4 +10,4 @@ _A react todo app with realtime database_. :smile:
 
 ### Live link
 
-(_click to open_)[https://react-tour-app.web.app]
+[_click to open_](https://react-tour-app.web.app)
