@@ -1,6 +1,6 @@
-# Todo App with Database
+# Tour App with Static Json
 
-_A react todo app with realtime database_. :smile:
+_A react tour app with static json file_. :smile:
 
 #### Dependency list
 
