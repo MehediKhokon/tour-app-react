@@ -4,7 +4,7 @@ function Tour({ id, image, info, price, name, removeTour }) {
   const [more, setMore] = useState(false)
   return (
     <article className='single-tour'>
-      <img src={image} alt={name} />\
+      <img src={image} alt={name} />
       <footer>
         <div className='tour-info'>
           <h4>{name}</h4>
