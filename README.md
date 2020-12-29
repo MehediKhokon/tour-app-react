@@ -2,7 +2,7 @@
 
 _A react tour app with static json file_. :smile:
 
-#### Dependency list
+#### Stack list
 
 - React
 - React hooks ( useState, useEffect )
