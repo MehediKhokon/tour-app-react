@@ -25,8 +25,8 @@ function App() {
 
   return (
     <>
-      <main>{tours && <Tours tours={tours} removeTour={removeTour} />}</main>
       <main>
+        {tours && <Tours tours={tours} removeTour={removeTour} />}
         {!tours && (
           <div className='title'>
             <h2>No tour left</h2>
