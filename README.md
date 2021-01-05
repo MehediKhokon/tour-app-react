@@ -1,12 +1,12 @@
-# Tour App with Static Json
-
-_A react tour app with static json file_. :smile:
+# Tour App
+_A react tour app with restapi_. :smile:
 
 #### Stack list
 
 - React
 - React hooks ( useState, useEffect )
 - Custom CSS
+- Django Backend for restapi
 
 ### Live link
 
