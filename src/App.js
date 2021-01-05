@@ -5,7 +5,7 @@ function App() {
   //get the data
   const url = 'https://django-recipe-app.herokuapp.com/api/'
   //set state for tour array
-  const [tours, setTours] = useState(null)
+  const [tours, setTours] = useState([])
 
   async function fetchData() {
     const res = await fetch(url)
@@ -26,14 +26,15 @@ function App() {
   return (
     <>
       <main>
-        {tours && <Tours tours={tours} removeTour={removeTour} />}
-        {!tours && (
+        {tours.length === 0 ? (
           <div className='title'>
             <h2>No tour left</h2>
             <button className='btn' onClick={fetchData}>
               refreshes
             </button>
           </div>
+        ) : (
+          <Tours tours={tours} removeTour={removeTour} />
         )}
       </main>
     </>
