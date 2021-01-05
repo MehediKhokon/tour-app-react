@@ -227,3 +227,7 @@ main {
   padding: 0.25rem 0.5rem;
   border-radius: var(--radius);
 }
+
+p{
+ text-align: justify;	
+}
